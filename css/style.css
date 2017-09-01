@@ -1,0 +1,51 @@
+html {
+	background-color: #fefefe;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	line-height: 700px;
+	padding-left: 50px;
+	font-family: 'Indie Flower', cursive;
+
+	background-position: center;
+	color: black;
+	font-size: 42px;
+	height: 260px;
+	background-image: url(../pics/fountain.jpeg);
+}
+footer {
+	width: 935px;
+	height: 236px;
+	background-color: teal;
+	margin-top: 150px;
+	background-image: url(../pics/zabor.jpg);
+	color: white;
+	line-height: 450px;
+	text-align: center;
+}
+
+.linkspace {
+	text-align: center;
+	background-color: #1d1831;
+	padding: 20px;
+
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+}
+
+.link:hover { color: orange; }
+.chosen { color: grey; }
+
+
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+
